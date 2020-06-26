@@ -51,7 +51,7 @@ body{
 =========================================== */
 nav{
     background: rgba(7, 7, 7,0);
-    border-bottom: 1px solid #fec600;
+    border-bottom: 1px solid green;
     position: absolute !important;
     top: 0;
     left: 0;
@@ -80,13 +80,13 @@ nav ul li a:after{
     left: 0;
     width: 0%;
     height: 3px;
-    background: #fec600;
+    background: green;
     content: "";
     transition: .4s;
 }
 
 nav ul li a:hover{
-    color: #fec600;
+    color: green;
 }
 
 nav ul li a:hover:after{
@@ -94,7 +94,7 @@ nav ul li a:hover:after{
 }
 
 nav ul li .active{
-    color: #fec600;
+    color: green;
 }
 
 nav ul li .active:after{
@@ -142,7 +142,7 @@ nav ul li .active:after{
     font-family: 'Raleway', sans-serif;
     font-size: 55px;
     font-weight: bold;
-    color: #fec600;
+    color: green;
     
 }
 
@@ -162,7 +162,7 @@ nav ul li .active:after{
     font-weight: 500;
     color: #222222;
     padding: 20px 15px;
-    background: #fec600;
+    background: green;
     margin-left: 20px;
 }
 
@@ -508,7 +508,7 @@ nav ul li .active:after{
 }
 
 #service-part .slick-center .middle .img{
-    background:#fec600;
+    background:green;
     transform: scale(1.3);
 }
 
